@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Creative Company - Landing Page</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #5433FF, #20BDFF);
+            color: #fff;
+        }
+
+        header {
+            text-align: center;
+            padding: 1em;
+        }
+
+        header img {
+            width: 80px;
+            border-radius: 50%;
+        }
+
+        header h1 {
+            margin: 10px 0;
+        }
+
+        nav {
+            background-color: rgba(255, 255, 255, 0.1);
+            padding: 1em;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 20px;
+            font-size: 18px;
+        }
+
+        section {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+            padding: 40px;
+        }
+
+        .column {
+            flex: 1;
+            padding: 20px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+            margin: 20px;
+            text-align: center;
+        }
+
+        h2 {
+            color: #5433FF;
+            margin-bottom: 15px;
+        }
+
+        p {
+            color: #fff;
+            opacity: 0.8;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        input, button {
+            margin: 10px 0;
+            padding: 15px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+        }
+
+        input {
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #5433FF;
+            color: #fff;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #20BDFF;
+        }
+
+        footer {
+            background-color: rgba(255, 255, 255, 0.1);
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="company-logo.png" alt="Company Logo">
+        <h1>Your Creative Company</h1>
+    </header>
+
+    <nav>
+        <a href="#profile">Profile</a>
+        <a href="#contact">Contact</a>
+        <a href="#pricing">Pricing</a>
+    </nav>
+
+    <section>
+        <div class="column">
+            <h2>Awesome Product</h2>
+            <p>
+                Explore the amazing features of our product that will revolutionize the way you work.
+            </p>
+        </div>
+
+        <div class="column">
+            <h2>Sign Up Now!</h2>
+            <form>
+                <input type="email" placeholder="Enter your email" required>
+                <button type="submit">Sign Up</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Your Creative Company. All rights reserved.</p>
+        <a href="#">Facebook</a>
+        <a href="#">Twitter</a>
+        <a href="#">Instagram</a>
+    </footer>
+
+</body>
+</html>
